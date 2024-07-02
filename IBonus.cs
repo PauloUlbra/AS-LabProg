@@ -1,7 +1,4 @@
-namespace AS
+public interface IBonus
 {
-    public interface IBonus
-    {
-        public double CalcularBonus();
-    }
+    public double CalcularBonus();
 }

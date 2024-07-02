@@ -1,4 +1,2 @@
-﻿namespace AS
-{
-    
-}
+﻿Empresa empresa = new Empresa();
+
