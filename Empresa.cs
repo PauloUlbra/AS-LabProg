@@ -22,9 +22,7 @@ public class Empresa
     {
         foreach (Funcionarios funcionario in funcionarios)
         {
-            int i = 0;
-            Console.WriteLine($"Funcionário {i+1} - {funcionario}");
-            i++;
+            Console.WriteLine($"-------------\nFuncionário {funcionario.Matricula}:\n{funcionario.Nome}\nSalário {funcionario.CalcularSalario():C}");
         }
     }
 }
