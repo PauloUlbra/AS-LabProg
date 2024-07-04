@@ -44,6 +44,11 @@ while (menu)
             empresa.ExibirFuncionarios();
             Console.WriteLine("------------------------------------------");
             break;
+        case 5:
+            Console.WriteLine("Digite o nome do projeto:");
+            string projeto = Console.ReadLine();
+            Funcionarios.AdicionarProjeto(projeto);
+            break;
         case 0:
             menu = false;
             break;

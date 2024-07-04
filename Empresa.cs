@@ -9,14 +9,8 @@ public class Empresa
     }
     public void RemoverFuncionario(int matricula)
     {
-        foreach (Funcionarios funcionario in funcionarios)
-        {
-            if (matricula == funcionario.Matricula)
-            {
-                funcionarios.Remove(funcionario);
-                Console.WriteLine("Removido com sucesso!");
-            }
-        }
+        Console.WriteLine("Funcionario removido com sucesso!");
+        funcionarios.RemoveAll(f => f.Matricula == matricula);
     }
     public void ExibirFuncionarios()
     {

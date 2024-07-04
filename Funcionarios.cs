@@ -13,7 +13,7 @@ public abstract class Funcionarios
     public abstract double CalcularSalario();
     public abstract void ExibirInformacoes();
 
-    public string AdicionarProjeto(string projeto)
+    public static string AdicionarProjeto(string projeto)
     {
         List<string> projetos = new List<string>();
         projetos.Add(projeto);
