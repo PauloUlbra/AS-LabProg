@@ -16,7 +16,7 @@ public class Empresa
     {
         foreach (Funcionarios funcionario in funcionarios)
         {
-            Console.WriteLine($"-------------\nFuncionário {funcionario.Matricula}:\n{funcionario.Nome}\nSalário {funcionario.CalcularSalario():C}");
+            Console.WriteLine($"-------------\nFuncionário Nº{funcionario.Matricula}:\n{funcionario.Nome}\nSalário {funcionario.CalcularSalario():C}");
         }
     }
 }
