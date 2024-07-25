@@ -1,5 +1,5 @@
 
-public class FuncionarioMeioPeriodo : Funcionarios
+public class FuncionarioMeioPeriodo : Funcionarios, IBonus
 {
     public FuncionarioMeioPeriodo(string nome,int matricula, double salarioPorHora, double horasTrabalhadas) : base(nome, matricula)
     {
